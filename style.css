@@ -1,0 +1,155 @@
+body {
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    margin: 200px;
+}
+
+#para {
+    margin-top: 100px;
+    width: 40%;
+}
+
+h1 {
+    font-size: 65px;
+    color: #5F5654;
+}
+
+p {
+    width: 600px;
+    font-size: 25px;
+    color: grey;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.half {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.about-me {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    margin-bottom: 50px;
+    height: 700px;
+}
+
+#image {
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+#text {
+    margin-bottom: 200px;
+}
+
+.half-width {
+    width: 70%;
+    margin-top: 200px;
+}
+
+.about-me-h1 {
+    font-size: 40px;
+}
+
+.about-me-p {
+    font-size: 20px;
+}
+
+.recipie-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipie {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.recipie-card-div {
+    margin: 50px 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.recipie-card {
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px gray;
+    width: 400px;
+    height: 480px;
+}
+
+.recipie-para {
+    font-size: 15px;
+    width: 400px;
+    text-align: justify;
+}
+
+.follower-title {
+    font-size: 55px;
+}
+
+.follower-para {
+    font-size: 15px;
+    color: black;
+}
+
+.follower {
+    margin: 100px 230px 100px 250px;
+}
+
+.follower-div {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}   
+
+.follower-card {
+    width: 15%;
+    margin-left: 200px;
+}
+
+footer {
+    background-color: #141313;
+    bottom: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+
+.footer-title {
+    color: gray;
+    font-size: 45px;
+}
+
+.footer-para {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+}
